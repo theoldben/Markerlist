@@ -21,8 +21,8 @@ Created by Samy Tichadou (tonton)
 bl_info = {  
  "name": "Marker List",  
  "author": "Samy Tichadou (tonton)",  
- "version": (1, 0),  
- "blender": (2, 82, 0),  
+ "version": (1, 1),  
+ "blender": (2, 91, 0),  
  "location": "Timeline",  
  "description": "Utilities to help with Timeline Markers handling",  
   "wiki_url": "https://github.com/samytichadou/Markerlist",  
@@ -36,6 +36,7 @@ import bpy
 # IMPORT SPECIFICS
 ##################################
 
+from .marker_panel import *
 from .go_to_marker import *
 from .marker_list import *
 from .remove_marker import *
@@ -50,6 +51,7 @@ classes = (GoToMarker,
             MarkerList,
             RemoveMarker,
             RemoveSelectedMarker,
+            SCENE_PT_MarkerList,
             )
 
 def register():
