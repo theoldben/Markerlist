@@ -23,7 +23,7 @@ bl_info = {
  "author": "Samy Tichadou (tonton)",  
  "version": (1, 1),  
  "blender": (2, 91, 0),  
- "location": "Timeline",  
+ "location": "Properties Area, Object Tab",  
  "description": "Utilities to help with Timeline Markers handling",  
   "wiki_url": "https://github.com/samytichadou/Markerlist",  
  "tracker_url": "https://github.com/samytichadou/Markerlist/issues/new",  
